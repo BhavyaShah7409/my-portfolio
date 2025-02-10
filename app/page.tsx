@@ -35,7 +35,8 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 ">
-I am a Computer Science Engineering student passionate about building scalable and intelligent solutions. With experience in web development, machine learning, and generative AI, I love solving complex problems using C, C++, Java, Python, and JavaScript. Always eager to learn and innovate, I thrive on turning ideas into impactful projects.
+          I am a tech enthusiast focused on building smart, scalable solutions. <br> 
+          With experience in web development, machine learning, and generative AI, I love tackling challenges and bringing innovative ideas to life. 
         </h2>
         <a
           href="https://drive.google.com/file/d/1kO9hB3uMtA4-JsXkxVn2a7PLw4AbsYO0/view?usp=sharing"
