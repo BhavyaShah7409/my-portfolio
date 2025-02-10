@@ -3,8 +3,8 @@ import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
-  { name: "Projects", href: "/projects" },
-  { name: "Contact", href: "/contact" },
+  { name: "projects", href: "/projects" },
+  { name: "contact", href: "/contact" },
 ];
 
 export default function Home() {
@@ -29,23 +29,23 @@ export default function Home() {
         quantity={100}
       />
       <h1 className="py-3.5 px-0.5 z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
-        chronark
+        bhavya_shah
       </h1>
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 ">
-          I'm building{" "}
-          <Link
-            target="_blank"
-            href="https://unkey.dev"
-            className="underline duration-500 hover:text-zinc-300"
-          >
-            unkey.dev
-          </Link> to solve API authentication and authorization for developers.
+I am a Computer Science Engineering student passionate about building scalable and intelligent solutions. With experience in web development, machine learning, and generative AI, I love solving complex problems using C, C++, Java, Python, and JavaScript. Always eager to learn and innovate, I thrive on turning ideas into impactful projects.
         </h2>
+        <a
+          href="https://drive.google.com/file/d/1kO9hB3uMtA4-JsXkxVn2a7PLw4AbsYO0/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 inline-block px-6 py-2 text-sm font-medium text-white bg-zinc-700 rounded-lg hover:bg-zinc-600 transition duration-300"
+        >
+          resume
+        </a>
       </div>
     </div>
   );
-
 }
